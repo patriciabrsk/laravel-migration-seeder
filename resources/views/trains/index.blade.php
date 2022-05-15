@@ -1,6 +1,6 @@
-@extends ('layouts.main ')
+@extends ('layouts.main')
 
-@section('title', 'Movies')
+@section('title', 'Trains')
 
 @section('main-content')
     <div class="container py-5">
@@ -12,7 +12,7 @@
                 
                 <div class="col">
                     <div class="card">
-                        <img src="https://dummyimage.com/300x350/b0b0b0/ffffff&text=Image+Not+Available" class="card-img-top img-fluid" alt="placeholder">
+                        <img src="" class="card-img-top img-fluid" alt="">
                         <div class="card-body">
                             <h4 class="card-title"></h4>
                             <h5 class="card-title"></h5>
@@ -24,7 +24,6 @@
                         </div>
                     </div>
                 </div>
-                @endforeach
             </div>
         </div>
     </div>
