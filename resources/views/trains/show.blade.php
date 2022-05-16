@@ -5,11 +5,8 @@
 @section('main-content')
     <div class="container py-5">
         <div class="row">
-            <div class="col-12">
-                <h2 class="text-uppercase">Trains</h2>
-            </div>
             <div class="row text-center">
-                <div class="col-12">
+                <div class="col-12 d-flex align-items-center justify-content-center">
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">{{ $train->azienda }} - {{ $train->codice_treno }}</h5>
@@ -20,9 +17,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-12 py-5 d-flex justify-content-center">
-                {{ $trains->links() }}
             </div>
         </div>
     </div>
