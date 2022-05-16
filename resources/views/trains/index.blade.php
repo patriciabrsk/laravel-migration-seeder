@@ -5,7 +5,7 @@
 @section('main-content')
     <div class="container py-5">
         <div class="row">
-            <div class="row row-cols-4 g-4 text-center">
+            <div class="row row-cols-4 g-4">
                 @foreach ($trains as $train)
                 <div class="col">
                     <div class="card">
