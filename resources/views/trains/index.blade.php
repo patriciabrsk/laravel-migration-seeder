@@ -17,7 +17,7 @@
                             <p class="card-text">{{ $train->orario_di_partenza }} {{ $train->stazione_di_partenza }} - {{ $train->stazione_di_arrivo }} {{ $train->orario_di_arrivo }}</p>
                             <p class="card-text">{{ $train->orario_di_partenza }} - {{ $train->orario_di_arrivo }}</p>
                             <p class="card-text">{{ $train->numero_carrozze }}</p>
-                            <p class="card-text">{{ $train->in_orario ? 'In orario' : 'Cancellato' }}</p>
+                            <p class="card-text">{{ $train->in_orario ? 'In orario' : 'In ritardo' }}</p>
                         </div>
                     </div>
                 </div>
