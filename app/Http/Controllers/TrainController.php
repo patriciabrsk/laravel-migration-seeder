@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class TrainController extends Controller
 {
     public function index() {
-        $trains = Train::all();
+        $trains = Train::orderBy('in_orario', 'desc')->paginate(20);
 
         $data = [
             'train' => new Train(),

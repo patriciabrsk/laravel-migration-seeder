@@ -23,6 +23,9 @@
                 </div>
                 @endforeach
             </div>
+            <div class="col-12 py-5 text-center">
+                {{ $trains->links() }}
+            </div>
         </div>
     </div>
 @endsection
