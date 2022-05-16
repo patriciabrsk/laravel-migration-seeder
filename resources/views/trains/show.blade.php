@@ -11,7 +11,6 @@
                         <div class="card-body">
                             <h5 class="card-title">{{ $train->azienda }} - {{ $train->codice_treno }}</h5>
                             <p class="card-text">{{ $train->orario_di_partenza }} {{ $train->stazione_di_partenza }} - {{ $train->stazione_di_arrivo }} {{ $train->orario_di_arrivo }}</p>
-                            <p class="card-text">{{ $train->orario_di_partenza }} - {{ $train->orario_di_arrivo }}</p>
                             <p class="card-text">{{ $train->numero_carrozze }}</p>
                             <p class="card-text">{{ $train->in_orario ? 'In orario' : 'In ritardo' }}</p>
                         </div>
